@@ -28,18 +28,25 @@ const Computers = () => {
 const ComputersCanvas = () => {
   return (
     <Canvas
-    dpr={[1,2]}
-    camera={{position:[0,0,5],fov:70}}
-    onCreated={({gl}) => {
-      gl.toneMapping = 1
-      gl.outputEncoding = 1
-    }}
+    frameloop='demand'
+    shadows
+    camera={{position:[20,3,5] , fov:25}}
+    gl={{preserveDrawingBuffer:true}}
+    
     >
-    <Suspense fallback={<CanvasLoader/>}>
+<Suspense fallback={CanvasLoader}>
+<OrbitControls enableZoom={false}
+maxPolarAngle={Math.PI/2}
+minPolarAngle={Math.PI/2}
+
+/>
     <Computers/>
-    </Suspense>
-    <OrbitControls/>
+</Suspense>
+<Preload all/>
+
     </Canvas>
+
+
   )
 }
 
