@@ -1,0 +1,3 @@
+#arrumar as luminosidade no componente computer.jsx para deixar o componenet mais iluminado
+
+#adicionar o computer canvas nocamente acima da div de rolagem 
