@@ -2,19 +2,16 @@ import {
     mobile,
     backend,
     creator,
+    github,
+    python,
     web,
     javascript,
     typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -22,7 +19,6 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -81,37 +77,23 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name:'GitHub',
+      icon:github
     },
     {
-      name: "docker",
-      icon: docker,
-    },
+      name:'Python',
+      icon:python
+    }
+    
+    
   ];
   
   const experiences = [
