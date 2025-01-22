@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -14,7 +14,15 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
-  const [result, setResult] = useState(""); // Estado para armazenar a mensagem de feedback
+  const [result, setResult] = useState(""); 
+
+
+  useEffect(() => {
+    if (result) {
+      const timer = setTimeout(() => setResult(""), 3000); 
+      return () => clearTimeout(timer); 
+    }
+  }, [result]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -91,7 +99,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               required
-              placeholder="What's your web address?"
+              placeholder="What's your email?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -116,7 +124,18 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
-        {result && <p className="text-green-500 mt-4">{result}</p>} {/* Mensagem de feedback */}
+
+        
+        {result && (
+          <div
+            className={`p-4 rounded-lg mt-4 ${
+              result.includes("Success") ? "bg-green-700" : "bg-red-500"
+            } text-black`}
+            style={{ transition: "opacity 0.5s ease-in-out" }}
+          >
+            {result}
+          </div>
+        )}
       </motion.div>
 
       <motion.div
