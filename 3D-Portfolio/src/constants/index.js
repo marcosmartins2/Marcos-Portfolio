@@ -12,6 +12,7 @@ import {
     reactjs,
     tailwind,
     git,
+    UFG,
     meta,
     starbucks,
     tesla,
@@ -98,9 +99,9 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Web developer",
+      company_name: "UFG",
+      icon: UFG,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -110,46 +111,7 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-  ];
+  ]
   
   const testimonials = [
     {
@@ -180,20 +142,20 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Nothing",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
       tags: [
         {
-          name: "react",
+          name: "Technology",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Technology",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Technology",
           color: "pink-text-gradient",
         },
       ],
@@ -201,20 +163,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Nothing",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
       tags: [
         {
-          name: "react",
+          name: "Technology",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Technology",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Technology",
           color: "pink-text-gradient",
         },
       ],
@@ -222,20 +184,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Nothing",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
       tags: [
         {
-          name: "nextjs",
+          name: "Technology",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Technology",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Technology",
           color: "pink-text-gradient",
         },
       ],

@@ -19,7 +19,7 @@ const App =()=> {
     <Experience/>
     <Tech/>
     <Works/>
-    <Feedbacks/>
+
     <div>
     <Contact/>
     <StarsCanvas/>

@@ -22,7 +22,7 @@ const Hero = () => {
 <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff] '>Marcos </span></h1>
 
 
-<p className={`${styles.heroSubText} mt-2 text-white-100 `}>I develop 3D visuals, user <br className='sm:block hidden'/> interfaces and web applications </p>
+<p className={`${styles.heroSubText} mt-2 text-white-100 `}>I'm a fullstack developer specializing in Python, JavaScript, TypeScript, React and Tailwind CSS. <br className='sm:block hidden'/>I create modern, functional applications with a clean design, always focusing on scalable solutions adapted to your needs.Let's turn your idea into reality!</p>
 
 </div>
 
