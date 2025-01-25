@@ -13,6 +13,7 @@ import {
     tailwind,
     git,
     UFG,
+    django,
     meta,
     starbucks,
     tesla,
@@ -66,32 +67,36 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
+      name: "JAVASCRIPT",
       icon: javascript,
     },
     {
-      name: "TypeScript",
+      name: "TYPESCRIPT",
       icon: typescript,
     },
     {
-      name: "React JS",
+      name: "REACT JS",
       icon: reactjs,
     },
     {
-      name: "Tailwind CSS",
+      name: "TAILWIND CSS",
       icon: tailwind,
     },
     {
-      name: "git",
+      name: "GIT",
       icon: git,
     },
     {
-      name:'GitHub',
+      name:'GITHUB',
       icon:github
     },
     {
-      name:'Python',
+      name:'PYTHON',
       icon:python
+    },
+    {
+      name:'DJANGO',
+      icon:django
     }
     
     
@@ -99,16 +104,17 @@ import {
   
   const experiences = [
     {
-      title: "Web developer",
+      title: "Extension Academic Project",
       company_name: "UFG",
       icon: UFG,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2024 - Now",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing and maintaining  applications.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked with version control (Git/GitHub) to streamline development.",
+        "participation in meetings with the team to align schedules",
+      
       ],
     },
   ]

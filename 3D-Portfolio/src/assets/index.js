@@ -21,7 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import python from "./tech/python.png";
-
+import django from './tech/django.png';
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -36,6 +36,7 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  django,
   python,
   backend,
   creator,
