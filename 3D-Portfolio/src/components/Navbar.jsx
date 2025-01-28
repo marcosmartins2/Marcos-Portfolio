@@ -4,6 +4,8 @@ import {styles} from '../styles'
 import {navLinks} from '../constants'
 import {logo,menu,close} from '../assets'
 import { li, nav, s } from 'framer-motion/client'
+import { authorBrand } from '../assets'
+
 
 const Navbar = () => {
   
@@ -20,7 +22,7 @@ onClick={()=>{
   setActive("");
   window.scrollTo(0,0)
 }}>
-<img src={logo} alt="logo" className='w-9 h-9 object-contain'  />
+<img src={authorBrand} alt="logo" className='w-9 h-9 object-contain border border-white rounded-full'  />
 <p className='text-white text-[18px] font-bold cursor-pointer flex'>Marcos Martins &nbsp; <span className='sm:block hidden'>| Web Developer</span></p>
 </Link>
 <ul className='list-none hidden sm:flex flex-row gap-10 '>

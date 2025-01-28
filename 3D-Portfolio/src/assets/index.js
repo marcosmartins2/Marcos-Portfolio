@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./tech/github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import authorBrand from "./logo/authorBrand.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -35,6 +36,7 @@ import tripguide from "./tripguide.png";
 
 
 export {
+  authorBrand,
   logo,
   django,
   python,
