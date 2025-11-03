@@ -29,6 +29,7 @@ import tripguide from "./tripguide.png";
 import cursinhoOnline from "./cursinhoOnline.jpg";
 import alPersonalPage from "./ALPersonalPage.png";
 import mcDonaldsClone from "./MCDonaldsClone.png";
+import controleDeGastos from "./controleDeGastos.png";
 
 
 export
@@ -59,4 +60,5 @@ export
   cursinhoOnline,
   alPersonalPage,
   mcDonaldsClone,
+  controleDeGastos,
 };

@@ -22,6 +22,7 @@ import
   cursinhoOnline,
   alPersonalPage,
   mcDonaldsClone,
+  controleDeGastos,
 } from "../assets";
 
 export const navLinks = [
@@ -192,7 +193,32 @@ const projects = [
       },
     ],
     image: mcDonaldsClone,
-    source_code_link: "https://github.com/marcosmartins2/mcdonalds-auto-check-out-clone",
+    source_code_link: "https://github.com/marcosmartins2/Self-Checkout-Restaurant-Client",
+  },
+  {
+    name: "Expense Tracker - Budget Management App",
+    description:
+      "💡 My First Project - A foundational expense tracking application that marks the beginning of my web development journey. Despite being a simpler project, it demonstrates core programming concepts including DOM manipulation, event handling, and data management. The app allows users to record income and expenses, categorize transactions, and view basic financial summaries. Built with vanilla JavaScript, HTML, CSS, and TailwindCSS, this project represents my initial steps in understanding web development fundamentals and user interface design.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: controleDeGastos,
+    source_code_link: "https://github.com/marcosmartins2/Projeto-Controle-de-Gastos",
   },
 ];
 
