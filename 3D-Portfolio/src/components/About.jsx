@@ -43,8 +43,7 @@ const ServiceCard = ({index,title,icon})=>{
 
 
       <motion.p variants={fadeIn("","",0.1,1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-      I'm a fullstack developer with strong skills in Python, JavaScript, TypeScript, React, and Tailwind CSS. I specialize in building modern, responsive, and user-centric applications that combine robust functionality with clean design. With a passion for solving complex problems, I focus on delivering scalable and maintainable solutions tailored to meet client needs. Let’s collaborate to turn your vision into reality!
-
+      I'm a frontend developer with solid experience in Angular, React, TypeScript, HTML, CSS, and Tailwind CSS. I specialize in creating modern, responsive, and user-focused applications that balance clean design with robust functionality. Having contributed to government projects, I bring experience in integrating REST APIs, optimizing performance, and building reusable components. With a passion for delivering scalable and maintainable solutions, I thrive in agile environments and enjoy collaborating with multidisciplinary teams to transform ideas into reality.
 
 
     
